@@ -35,7 +35,6 @@ python3 -m pcdet.datasets.astyx.ttttt create_astyx_infos tools/cfgs/dataset_conf
 ## 4.Training
 
 ```
-
 cd tools/
 
 python train.py --cfg_file cfgs/astyx_models/pointpillar.yaml --tcp_port 25851 --extra_tag yourmodelname
@@ -59,7 +58,7 @@ cd tools/
 python test.py --cfg_file cfgs/astyx_models/pointpillar.yaml --batch_size 4 --ckpt ../output/astyx_models/pointpillar/rpfanet_313/ckpt/checkpoint_epoch_80.pth
 ```
 
-####### or
+###### or
 
 ```shell
 cd tools/
