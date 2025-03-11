@@ -44,15 +44,13 @@ python train.py --cfg_file cfgs/astyx_models/pointpillar.yaml --tcp_port 25851 -
 
 ```shell
 cd tools/
-```
-```
+
 CUDA_VISIBLE_DEVICES=1 python train.py --cfg_file cfgs/astyx_models/pointpillar.yaml --tcp_port 25851 --extra_tag yourmodelname
 ```
 
 ## 5.Testing
 
 ```
-
 cd tools/
 
 python test.py --cfg_file cfgs/astyx_models/pointpillar.yaml --batch_size 4 --ckpt ../output/astyx_models/pointpillar/rpfanet_313/ckpt/checkpoint_epoch_80.pth
@@ -62,8 +60,7 @@ python test.py --cfg_file cfgs/astyx_models/pointpillar.yaml --batch_size 4 --ck
 
 ```shell
 cd tools/
-```
-```
+
 python test.py --cfg_file cfgs/astyx_models/pointpillar.yaml --batch_size 4 --ckpt ##astyx_models/pointpillar/debug/ckpt/checkpoint_epoch_80.pth
 ```
 
