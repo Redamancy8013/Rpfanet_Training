@@ -66,9 +66,9 @@ python test.py --cfg_file cfgs/astyx_models/pointpillar.yaml --batch_size 4 --ck
 
 ## 6.Visualization
 
-'''
+```
 python3 demo.py --ckpt ../output/astyx_models/pointpillar/rpfanet_313/ckpt/checkpoint_epoch_80.pth
-'''
+```
 
 ## 7.Main directory struction
 
