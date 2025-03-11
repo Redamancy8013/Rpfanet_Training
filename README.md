@@ -14,9 +14,19 @@ In this project, eg. the `Astyx` dataset is put into `/home/ez/project/rpfanet/d
 
 ## 2.Environment
 
-`conda env create -f environment.yml`
+```
+conda env create -f environment_openpcdet.yml
 
-`conda activate OpenPCDet`
+conda activate OpenPCDet
+```
+
+###### or
+
+```
+conda env create -f environment_vod.yml
+
+conda activate view-of-delft-env
+```
 
 ##### !Attention!
 
