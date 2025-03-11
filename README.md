@@ -28,6 +28,8 @@ conda env create -f environment_vod.yml
 conda activate view-of-delft-env
 ```
 
+Forget which environment is suitable, just try.  QAQ
+
 ##### !Attention!
 
 * Install the SparseConv library, we use the implementation from [`[spconv]`](https://github.com/traveller59/spconv). 
